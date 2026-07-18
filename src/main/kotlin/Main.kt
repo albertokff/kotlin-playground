@@ -1,5 +1,6 @@
 package org.example
 
+import org.example.achatamento_estruturas_flatmap.consolidacaoAlertasSeguranca
 import org.example.achatamento_estruturas_flatmap.consolidacaoItensPedidos
 import org.example.achatamento_estruturas_flatmap.filtroPassagensAltaPrioridades
 import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
@@ -19,8 +20,8 @@ fun main() {
 
     /* Achatamento de Estruturas com FlatMap */
         //consolidacaoItensPedidos()
-        filtroPassagensAltaPrioridades()
-
+        //filtroPassagensAltaPrioridades()
+        consolidacaoAlertasSeguranca()
 
 
 }
