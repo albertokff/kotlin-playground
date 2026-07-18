@@ -1,6 +1,7 @@
 package org.example
 
 import org.example.achatamento_estruturas_flatmap.consolidacaoItensPedidos
+import org.example.achatamento_estruturas_flatmap.filtroPassagensAltaPrioridades
 import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
 import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
@@ -15,6 +16,11 @@ fun main() {
         //processamentoTransacaoSuspeita()
         //processamentoPerfilUsuarioEcommerce()
         //filtroEstoqueAltaPrioridade()
-    consolidacaoItensPedidos()
+
+    /* Achatamento de Estruturas com FlatMap */
+        //consolidacaoItensPedidos()
+        filtroPassagensAltaPrioridades()
+
+
 
 }
