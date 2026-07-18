@@ -1,5 +1,6 @@
 package org.example
 
+import org.example.achatamento_estruturas_flatmap.consolidacaoItensPedidos
 import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
 import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
@@ -13,5 +14,7 @@ fun main() {
         //filtroLogAcesso()
         //processamentoTransacaoSuspeita()
         //processamentoPerfilUsuarioEcommerce()
-    filtroEstoqueAltaPrioridade()
+        //filtroEstoqueAltaPrioridade()
+    consolidacaoItensPedidos()
+
 }
