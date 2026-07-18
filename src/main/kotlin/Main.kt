@@ -1,6 +1,7 @@
 package org.example
 
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
+import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
 import org.example.manipulando_colecoes_kotlin.processamentoTransacaoSuspeita
 
 
@@ -9,5 +10,6 @@ import org.example.manipulando_colecoes_kotlin.processamentoTransacaoSuspeita
 fun main() {
     /* Manipulando Coleções Kotlin */
         //filtroLogAcesso()
-        processamentoTransacaoSuspeita()
+        //processamentoTransacaoSuspeita()
+    processamentoPerfilUsuarioEcommerce()
 }

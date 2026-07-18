@@ -18,9 +18,9 @@ fun processamentoTransacaoSuspeita() {
         "REAL2, 222, RECUSADO",
         "REAL3, 105, PENDENTE",
         "REAL4, 980, APROVADO",
-        *"REAL5, 745, PENDENTE",
+        "REAL5, 745, PENDENTE",
         "REAL6, 520, APROVADO",
-        *"REAL7, 850, PENDENTE",
+        "REAL7, 850, PENDENTE",
         "REAL8, 999, APROVADO",
         "REAL9, 555, RECUSADO",
         "REAL10, 600, PENDENTE"
