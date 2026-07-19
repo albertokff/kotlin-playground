@@ -6,6 +6,7 @@ import org.example.achatamento_estruturas_flatmap.consolidacaoItensPedidos
 import org.example.achatamento_estruturas_flatmap.filtroPassagensAltaPrioridades
 import org.example.achatamento_estruturas_flatmap.vendasLoja
 import org.example.concorrencia_e_corroutines_assincronismo.agregadorPerfilCliente
+import org.example.concorrencia_e_corroutines_assincronismo.painelInvestidor
 import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
 import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
@@ -30,4 +31,5 @@ fun main() {
 
     /* Concorrência e Corroutines - Assincronismo */
         //agregadorPerfilCliente()
+        //painelInvestidor()
 }
