@@ -1,5 +1,6 @@
 package org.example
 
+import org.example.achatamento_estruturas_flatmap.agrupamentoMetricasServidores
 import org.example.achatamento_estruturas_flatmap.consolidacaoAlertasSeguranca
 import org.example.achatamento_estruturas_flatmap.consolidacaoItensPedidos
 import org.example.achatamento_estruturas_flatmap.filtroPassagensAltaPrioridades
@@ -21,7 +22,7 @@ fun main() {
     /* Achatamento de Estruturas com FlatMap */
         //consolidacaoItensPedidos()
         //filtroPassagensAltaPrioridades()
-        consolidacaoAlertasSeguranca()
-
+        //consolidacaoAlertasSeguranca()
+        //agrupamentoMetricasServidores()
 
 }
