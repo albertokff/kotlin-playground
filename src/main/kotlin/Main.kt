@@ -7,6 +7,12 @@ import org.example.achatamento_estruturas_flatmap.filtroPassagensAltaPrioridades
 import org.example.achatamento_estruturas_flatmap.vendasLoja
 import org.example.concorrencia_e_corroutines_assincronismo.agregadorPerfilCliente
 import org.example.concorrencia_e_corroutines_assincronismo.painelInvestidor
+import org.example.concorrencia_e_corroutines_assincronismo.processarFechamentoVenda
+import org.example.concorrencia_e_corroutines_assincronismo.sistemaPagamentos
+import org.example.estruturas_dados_puras_sets_maps.aquecimento
+import org.example.estruturas_dados_puras_sets_maps.categoriasVip
+import org.example.estruturas_dados_puras_sets_maps.dicionarioFrequenciaPalavras
+import org.example.estruturas_dados_puras_sets_maps.permissoesUsuarios
 import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
 import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
@@ -32,4 +38,12 @@ fun main() {
     /* Concorrência e Corroutines - Assincronismo */
         //agregadorPerfilCliente()
         //painelInvestidor()
+        //processarFechamentoVenda() //Esse aqui não vai funcionar porque precisa da UI
+        //sistemaPagamentos()
+
+    /* Estruturas de Dados Puras - Sets e Maps */
+        //aquecimento()
+        //dicionarioFrequenciaPalavras()
+        //permissoesUsuarios()
+        categoriasVip()
 }
