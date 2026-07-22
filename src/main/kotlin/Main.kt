@@ -10,6 +10,7 @@ import org.example.concorrencia_e_corroutines_assincronismo.painelInvestidor
 import org.example.concorrencia_e_corroutines_assincronismo.processarFechamentoVenda
 import org.example.concorrencia_e_corroutines_assincronismo.sistemaPagamentos
 import org.example.estruturas_dados_puras_sets_maps.aquecimento
+import org.example.estruturas_dados_puras_sets_maps.carrosVip
 import org.example.estruturas_dados_puras_sets_maps.categoriasVip
 import org.example.estruturas_dados_puras_sets_maps.dicionarioFrequenciaPalavras
 import org.example.estruturas_dados_puras_sets_maps.permissoesUsuarios
@@ -45,5 +46,6 @@ fun main() {
         //aquecimento()
         //dicionarioFrequenciaPalavras()
         //permissoesUsuarios()
-        categoriasVip()
+        //categoriasVip()
+        carrosVip()
 }
