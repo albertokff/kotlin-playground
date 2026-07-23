@@ -18,6 +18,9 @@ import org.example.manipulando_colecoes_kotlin.filtroEstoqueAltaPrioridade
 import org.example.manipulando_colecoes_kotlin.filtroLogAcesso
 import org.example.manipulando_colecoes_kotlin.processamentoPerfilUsuarioEcommerce
 import org.example.manipulando_colecoes_kotlin.processamentoTransacaoSuspeita
+import org.example.recursos_linguagem_e_poo_kotlin.EstadoPagamento
+import org.example.recursos_linguagem_e_poo_kotlin.atualizadorImutavelPerfil
+import org.example.recursos_linguagem_e_poo_kotlin.exibirResultadoPagamento
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -47,5 +50,9 @@ fun main() {
         //dicionarioFrequenciaPalavras()
         //permissoesUsuarios()
         //categoriasVip()
-        carrosVip()
+        //carrosVip()
+
+    /* Recursos da Linguagem e POO Kotlin */
+        //atualizadorImutavelPerfil()
+        exibirResultadoPagamento(EstadoPagamento.Aprovado(idTransacao = "1", valor = 4.3))
 }
