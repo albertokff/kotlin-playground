@@ -21,6 +21,7 @@ import org.example.manipulando_colecoes_kotlin.processamentoTransacaoSuspeita
 import org.example.recursos_linguagem_e_poo_kotlin.EstadoPagamento
 import org.example.recursos_linguagem_e_poo_kotlin.atualizadorImutavelPerfil
 import org.example.recursos_linguagem_e_poo_kotlin.exibirResultadoPagamento
+import org.example.recursos_linguagem_e_poo_kotlin.formatadorDocumentosValidador
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -54,5 +55,6 @@ fun main() {
 
     /* Recursos da Linguagem e POO Kotlin */
         //atualizadorImutavelPerfil()
-        exibirResultadoPagamento(EstadoPagamento.Aprovado(idTransacao = "1", valor = 4.3))
+        //exibirResultadoPagamento(EstadoPagamento.Aprovado(idTransacao = "1", valor = 4.3))
+        formatadorDocumentosValidador()
 }
